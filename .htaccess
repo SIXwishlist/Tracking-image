@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteBase "/open projects/track/"
+
+RewriteRule ^([A-z0-9]+).png$ tracker.py?id=$1 [L]
